@@ -25,7 +25,7 @@ public class getWifiInfo {
         while (true) {
 
             String urlBuilder = "http://openapi.seoul.go.kr:8088" +
-                    "/" + URLEncoder.encode("6469754f4979756e353251454f734b", "UTF-8") +
+                    "/" + URLEncoder.encode("키값", "UTF-8") +
                     "/" + URLEncoder.encode("json", "UTF-8") +
                     "/" + URLEncoder.encode("TbPublicWifiInfo", "UTF-8") +
                     "/" + URLEncoder.encode(String.valueOf(idx), "UTF-8") +
